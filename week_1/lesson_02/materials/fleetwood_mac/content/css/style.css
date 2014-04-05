@@ -1,0 +1,71 @@
+body {
+	background: #3e3e3e;
+	color: #fff;
+	font-family: Georgia, Times, serif;
+	border: 3px solid grey;
+	padding: 20px;
+	margin: 20px 40px 60px 80px;
+	}
+
+nav {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+nav a {
+	color: green;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a {
+	color: pink;
+	font-weight: normal;
+}
+
+
+a:hover {
+	color: red;
+}
+
+h2, nav {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-style: italic;
+}
+
+h1, nav {
+	text-align: center;
+}
+
+nav {
+	font-size: 14px;
+}
+
+hr {
+	height: 1px;
+	background: grey;
+	border: 0;
+}
+
+img  {
+	float: right;
+	border: 1px solid #fff;
+	padding: 4px;
+	margin: 0 0 10px 10px;
+}
+
+h3 {
+	color: #ccc;
+}
+
+h4 {
+	color: #fff;
+	margin: 5px;
+}
+
+ul {
+	color: #ccc;
+}

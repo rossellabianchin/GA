@@ -1,0 +1,47 @@
+*{
+  -moz-box-sizing:border-box; /* Firefox*/
+  -webkit-box-sizing:border-box; /* Chrome - Safari*/
+  box-sizing:border-box; /* IE*/
+}
+
+h2 {
+	color: red;
+}
+header h2 {
+	color: green;
+}
+
+aside p {
+	font-weight: bold;
+}
+
+header h2 em {
+	font-weight: bold;
+	color: pink;
+	font-size: 20px;
+}
+
+/*li:first-of-type {
+	color: pink;
+	}*/
+
+	ul li:first-child{
+		color: pink;
+	}
+
+	ul li:nth-of-type(even) { /*ogni 2 della lista 2/4/6/8*/
+		color: red;
+	}
+
+	ul li:nth-of-type(2) { /*solo il numero 2 della lista ha lo stile*/
+		color: red;
+	}
+
+
+	/*ul li:nth-of-type(2) {
+		color: teal;
+	}*/
+
+	ul li:last-child {
+		color: #ccc;
+	}
